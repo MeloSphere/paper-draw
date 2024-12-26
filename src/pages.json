@@ -1,0 +1,58 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "纸条抽取"
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布纸条"
+			}
+		},
+		{
+			"path": "pages/draw/draw",
+			"style": {
+				"navigationBarTitleText": "抽取纸条"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "纸条抽取",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f8f9fa"
+	},
+	"tabBar": {
+		"color": "#6c757d",
+		"selectedColor": "#339af0",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/publish/publish",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/draw/draw",
+				"text": "抽取"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的"
+			}
+		]
+	}
+}
